@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Logout</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Are you sure you want to log out?</h2>
+    <form method="POST" action="{{ url_for('logout') }}">
+        <div class="form-group">
+            <label for="confirm">Select:</label>
+            <select class="form-control" id="confirm" name="confirm" required>
+                <option value="yes">Yes, log me out</option>
+                <option value="no">No, cancel</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Confirm</button>
+    </form>
+</div>
+<script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>

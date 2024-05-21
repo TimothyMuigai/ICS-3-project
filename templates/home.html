@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} Main Page {% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+</head>
+<body>
+
+{% if session.email %}
+	<div class="container">
+		<div class="row">		
+		</div>
+		<br>
+		<div class="row">	
+			<a href="{{ url_for('logout') }}">Logout</a>
+			<br>         
+			 <br>
+			<p>Welcome: <strong>{{ session.email }}</strong></p>
+		</div>
+		<br><br>
+		<div class="row">
+			
+			<h2>Welcome to the user profile page...</h2> 
+		</div>		
+	</div>
+{%else%}
+	<p>You are not logged in. Please <a href="/login">Login</a> to access this page</p>
+{%endif%}
+<script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
