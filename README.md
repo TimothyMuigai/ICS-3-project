@@ -1,27 +1,15 @@
 # AI TUTOR
 
 ## Description
-AI TUTOR is an AI-powered application designed to assist learners by utilizing models for image handling, audio handling, and PDF handling. This tool operates entirely on the user's computer, eliminating the need for paid APIs and ensuring accessibility for everyone.
+AI TUTOR application is an application designed to facilitate interactive learning for users. It allows learners to upload a variety of files, including photos, images, and documents. Once files are uploaded, users can engage with the content through a sophisticated AI-driven interface. The primary goal of the app is to enable users to ask questions about the files they have submitted. This feature supports a diverse range of learning needs, from understanding complex images to interpreting text documents.The app uses machine learning models to analyze the uploaded files. It then provides users with detailed and contextually relevant information in response to their queries. The user-friendly interface ensures that learners can easily navigate through the process of uploading files and asking questions.
 
 ### Project Structure
 
-## Components
+![Screenshot (273)](https://github.com/TimothyMuigai/ICS-3-project/assets/143069621/62d0642b-cb79-4243-a7b8-289b9fd7771d)
 
-- **`__pycache__`**: Contains compiled Python files (.pyc) for the project.
-- **`aitutorenv`**: Main environment directory for the AI Tutor project.
-  - **`chat_icons`**: Contains image files for the chat interface.
-  - **`chat_sessions`**: Database file for storing chat sessions.
-  - **`chroma_db`**: Database file for Chroma.
-  - **`models`**: Directory for model files.
-    - **`mistral-7b-instruct-v0.1`**: Contains GGUF model files.
-    - **`llava`**: Contains additional model files for LLAVA.
-- **`app.py`**: Main application file to run the AI Tutor.
-- **`audio_handler.py`**: Handles audio processing tasks.
-- **`config.yaml`**: Configuration file for project settings.
-- **`database_operations.py`**: Manages database interactions.
-- **`html_templates.py`**: Contains HTML templates for the UI.
-- **`image_handler.py`**: Manages image processing tasks.
-- **`llm_chains.py`**: Handles LLM (Language Model) chain functionalities.
-- **`pdf_handler.py`**: Manages PDF processing tasks.
-- **`prompt_templates.py`**: Contains templates for AI prompts.
-- **`utils.py`**: Utility functions used throughout the project.
+
+
+![image](https://github.com/TimothyMuigai/ICS-3-project/assets/143069621/9ba82a0c-9bba-44c4-8b05-2396c81a278c)
+## License
+
+MIT
