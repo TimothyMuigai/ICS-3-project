@@ -3,7 +3,7 @@
 ## Description
 AI TUTOR is an AI-powered application designed to assist learners by utilizing models for image handling, audio handling, and PDF handling. This tool operates entirely on the user's computer, eliminating the need for paid APIs and ensuring accessibility for everyone.
 
-###Project Structure
+### Project Structure
 AI TUTOR    
   ├───__pycache__
   ├───aitutorenv
