@@ -83,9 +83,39 @@ cloning the github respository to your desired code editor:
         Explain the expected input format and the type of output the project generates.
   
 ### Project Structure
-
-![Screenshot (273)](https://github.com/TimothyMuigai/ICS-3-project/assets/143069621/62d0642b-cb79-4243-a7b8-289b9fd7771d)
-
+```
+        AI TUTOR
+        │   .env
+        │   __pycache
+        │   app.py
+        │   audio_handler.py
+        │   config.yaml
+        │   database_operations.py
+        │   html_templates.py
+        │   image_handler.py
+        │   llm_chains.py
+        │   pdf_handler.py
+        │   prompt_templates.py
+        │   utils.py
+        │
+        ├───chat_icons
+        │       bot_image.png
+        │       user_image.png
+        │
+        ├───chat_sessions
+        │       chat_sessions.db
+        │
+        ├───chroma_db
+        │   │   chroma.sqlite3
+        │
+        └───models
+            │   mistral-7b-instruct-v0.1.Q4_K_M.gguf
+            │   mistral-7b-instruct-v0.1.Q5_K_M.gguf
+            │
+            └───llava
+                    ggml-model-q4_k.gguf
+                    mmproj-model-f16.gguf
+```
 ### Overview: 
 
 #### Key Files: 
