@@ -4,46 +4,24 @@
 AI TUTOR is an AI-powered application designed to assist learners by utilizing models for image handling, audio handling, and PDF handling. This tool operates entirely on the user's computer, eliminating the need for paid APIs and ensuring accessibility for everyone.
 
 ### Project Structure
-AI TUTOR
-├───__pycache__
-│   ├───audio_handler.cpython-312.pyc
-│   ├───database_operations.cpython-312.pyc
-│   ├───html_templates.cpython-312.pyc
-│   ├───image_handler.cpython-312.pyc
-│   ├───llm_chains.cpython-312.pyc
-│   ├───pdf_handler.cpython-312.pyc
-│   ├───prompt_templates.cpython-312.pyc
-│   └───utils.cpython-312.pyc
-├───aitutorenv
-│   ├───chat_icons
-│   │   ├───bot_image.png
-│   │   └───user_image.png
-│   ├───chat_sessions
-│   │   └───chat_sessions.db
-│   ├───chroma_db
-│   │   └───chroma.sqlite3
-│   ├───models
-│   │   ├───mistral-7b-instruct-v0.1.Q4_K_M.gguf
-│   │   ├───mistral-7b-instruct-v0.1.Q5_K_M.gguf
-│   │   └───llava
-│   │       ├───ggml-model-q4_k.gguf
-│   │       └───mmproj-model-f16.gguf
-│   └───__pycache__
-│       ├───audio_handler.cpython-312.pyc
-│       ├───database_operations.cpython-312.pyc
-│       ├───html_templates.cpython-312.pyc
-│       ├───image_handler.cpython-312.pyc
-│       ├───llm_chains.cpython-312.pyc
-│       ├───pdf_handler.cpython-312.pyc
-│       ├───prompt_templates.cpython-312.pyc
-│       └───utils.cpython-312.pyc
-├───app.py
-├───audio_handler.py
-├───config.yaml
-├───database_operations.py
-├───html_templates.py
-├───image_handler.py
-├───llm_chains.py
-├───pdf_handler.py
-├───prompt_templates.py
-└───utils.py
+
+## Components
+
+- **`__pycache__`**: Contains compiled Python files (.pyc) for the project.
+- **`aitutorenv`**: Main environment directory for the AI Tutor project.
+  - **`chat_icons`**: Contains image files for the chat interface.
+  - **`chat_sessions`**: Database file for storing chat sessions.
+  - **`chroma_db`**: Database file for Chroma.
+  - **`models`**: Directory for model files.
+    - **`mistral-7b-instruct-v0.1`**: Contains GGUF model files.
+    - **`llava`**: Contains additional model files for LLAVA.
+- **`app.py`**: Main application file to run the AI Tutor.
+- **`audio_handler.py`**: Handles audio processing tasks.
+- **`config.yaml`**: Configuration file for project settings.
+- **`database_operations.py`**: Manages database interactions.
+- **`html_templates.py`**: Contains HTML templates for the UI.
+- **`image_handler.py`**: Manages image processing tasks.
+- **`llm_chains.py`**: Handles LLM (Language Model) chain functionalities.
+- **`pdf_handler.py`**: Manages PDF processing tasks.
+- **`prompt_templates.py`**: Contains templates for AI prompts.
+- **`utils.py`**: Utility functions used throughout the project.
