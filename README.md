@@ -1,7 +1,7 @@
 # AI TUTOR
 
 ## Description
-AI TUTOR application is an application designed to facilitate interactive learning for users. It allows learners to upload a variety of files, including photos, images, and documents. Once files are uploaded, users can engage with the content through a sophisticated AI-driven interface. The primary goal of the app is to enable users to ask questions about the files they have submitted. This feature supports a diverse range of learning needs, from understanding complex images to interpreting text documents.The app uses machine learning models to analyze the uploaded files. It then provides users with detailed and contextually relevant information in response to their queries. The user-friendly interface ensures that learners can easily navigate through the process of uploading files and asking questions.
+AI TUTOR application is an application designed to facilitate interactive learning for users. It allows learners to upload a documents. Once files are uploaded, users can engage with the content through an AI-driven interface. The primary goal of the app is to enable users to ask questions about the files they have submitted. This feature supports a diverse range of learning needs to interpreting text documents.The app uses machine learning models to analyze the uploaded files. It then provides users with detailed and contextually relevant information in response to their queries. The user-friendly interface ensures that learners can easily navigate through the process of uploading files and asking questions.
 
 ## Project Setup
 ### Dependencies
@@ -13,12 +13,6 @@ AI TUTOR application is an application designed to facilitate interactive learni
     ```
     Streamlit is an open-source framework for creating interactive web applications directly from Python code.
     
-- Download and install flask using this command:
-    ```sh
-    $ pip install flask
-    $ streamlit hello  #run this to ensure streamlit is installed
-    ```
-    Flask is a micro web framework for Python that provides the basic tools needed to build web applications.
 - Download and install Langchain using this command:
     ```sh
     $ pip install langchain
@@ -86,13 +80,10 @@ cloning the github respository to your desired code editor:
 ```
         AI TUTOR
         │   .env
-        │   __pycache
         │   app.py
-        │   audio_handler.py
         │   config.yaml
         │   database_operations.py
         │   html_templates.py
-        │   image_handler.py
         │   llm_chains.py
         │   pdf_handler.py
         │   prompt_templates.py
@@ -124,9 +115,6 @@ cloning the github respository to your desired code editor:
 
 - pdf_handler.py 
     This module processes PDF files. It includes functions for extracting text, parsing content, or any other operations related to PDF files.
-
-- audio_handler.py
-     This module processes audio files. It include functionalities like audio extraction and transcription.
 
 - database_operations.py
     This module manages interactions with the database. It includes functions for querying, updating, and managing data.
