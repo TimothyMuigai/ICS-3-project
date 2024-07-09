@@ -1,7 +1,7 @@
 # AI TUTOR
 
 ## Description
-AI TUTOR application is an application designed to facilitate interactive learning for users. It allows learners to upload a documents. Once files are uploaded, users can engage with the content through an AI-driven interface. The primary goal of the app is to enable users to ask questions about the files they have submitted. This feature supports a diverse range of learning needs to interpreting text documents.The app uses machine learning models to analyze the uploaded files. It then provides users with detailed and contextually relevant information in response to their queries. The user-friendly interface ensures that learners can easily navigate through the process of uploading files and asking questions.
+AI TUTOR application is an application designed to facilitate interactive learning for users. It allows learners to upload a documents. Once files are uploaded, users can engage with the content through an AI-driven interface. The primary goal of the app is to enable users to ask questions about the files they have submitted. The app uses machine learning models to analyze the uploaded files. It then provides users with detailed and contextually relevant information in response to their queries. The user-friendly interface ensures that learners can easily navigate through the process of uploading files and asking questions.
 
 ## Project Setup
 ### Dependencies
